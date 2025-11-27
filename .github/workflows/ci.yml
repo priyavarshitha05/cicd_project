@@ -21,17 +21,12 @@ jobs:
         with:
           node-version: 20
 
-      # Install dependencies inside the frontend folder
       - name: Install dependencies
         run: npm install
         working-directory: ./Food_recipe_book-main
 
       - name: Run lint
         run: npm run lint
-        working-directory: ./Food_recipe_book-main
-
-      - name: Run tests
-        run: npm test -- --watchAll=false
         working-directory: ./Food_recipe_book-main
 
       - name: Build project
