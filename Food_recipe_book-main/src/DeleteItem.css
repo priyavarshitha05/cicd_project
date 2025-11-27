@@ -1,0 +1,45 @@
+.delete-item-wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  padding: 20px;
+}
+
+.delete-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}

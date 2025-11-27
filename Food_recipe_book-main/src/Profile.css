@@ -1,0 +1,74 @@
+.profile-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-header {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.columns {
+  display: flex;
+  gap: 40px;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-container label {
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+}
+
+.profile-container input,
+.profile-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background: white;
+}
+
+.profile-container .dob-group {
+  display: flex;
+  gap: 10px;
+}
+
+.save-btn {
+  margin-top: 30px;
+  padding: 12px 20px;
+  background: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  align-self: center;
+}
+
+.save-btn:hover {
+  background: #38a169;
+}

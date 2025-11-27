@@ -1,0 +1,34 @@
+.reviews-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.reviews-dashboard h2 {
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 80%;
+  max-width: 900px;
+}
+
+.review-card {
+  background-color: #fefefe;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: left;
+  color: #333;
+}
+
+.review-card p {
+  font-size: 16px;
+  margin: 12px 0;
+}

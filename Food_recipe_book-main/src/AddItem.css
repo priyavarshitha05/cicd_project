@@ -1,0 +1,83 @@
+.add-item-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.left-panel {
+  flex: 1;
+  background-color:rgb(81, 169, 40);
+  padding: 40px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid rgb(132, 197, 102);
+}
+
+
+.left-panel h2 {
+  margin-top: 50px;
+  font-size: 35px;
+  color: #333;
+}
+
+.left-panel p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.left-panel .collage {
+  width: 550px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.right-panel {
+  flex: 1;
+  background-color: rgb(169, 204, 153);
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-panel h2 {
+  margin-bottom: 20px;
+}
+
+.right-panel input,
+.right-panel textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+
+.right-panel textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.right-panel button {
+  background-color: rgb(70, 163, 26);
+  color: black;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  width: 200px;
+}
+
+.right-panel button:hover {
+  background-color: #7e2307;
+}
